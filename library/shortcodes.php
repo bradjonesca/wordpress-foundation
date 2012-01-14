@@ -70,4 +70,21 @@ function alerts( $atts, $content = null ) {
 }
 
 add_shortcode('alert', 'alerts');
+
+// Panels
+function panels( $atts, $content = null ) {
+	extract( shortcode_atts( array(
+	'type' => '	', /* warning, success, error */
+	'close' => 'false', /* display close link */
+	'text' => '', 
+	), $atts ) );
+	
+	$output = '<div class="panel">';
+	$output .= $text;
+	$output .= '</div>';
+	
+	return $output;
+}
+
+add_shortcode('panel', 'panels');
 ?>
