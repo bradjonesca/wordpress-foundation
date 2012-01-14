@@ -1,0 +1,346 @@
+/*
+Theme Name: Wordpress Foundation
+Theme URI: http://320press.com/wpfoundation
+Description: A bones/Zurb foundation based wordpress theme.
+Version: 1.0
+Author: 320press
+Author URI: http://320press.com
+Tags: bones, zurb, foundation, 320press, clean, basic
+*/
+
+/* micro clearfix: http://nicolasgallagher.com/micro-clearfix-hack/ */
+/* For modern browsers */
+.clearfix:before,
+.clearfix:after {
+    content:"";
+    display:table;
+}
+
+.clearfix:after {
+    clear:both;
+}
+
+/* For IE 6/7 (trigger hasLayout) */
+.clearfix {
+    zoom:1;
+}
+
+/* layout */
+
+#top-header{
+	padding-top: 20px;
+}
+
+#content{
+	margin-bottom: 9px;
+	border-bottom: 1px solid #ccc;
+}
+
+#main{
+	margin-bottom: 18px;
+	border-bottom: 1px solid #ccc;
+}
+
+#s{
+	width: 100px;
+}
+
+.more-link{
+	white-space: nowrap;
+}
+
+p.attribution{
+	text-align: right;
+}
+
+.siteinfo{
+}
+
+.siteinfo h1{
+	margin-bottom: 0;
+}
+
+h4.subhead{
+    color: #777777;
+    font-weight: 300;
+    margin-bottom: 12px;
+}
+
+#menu-top-nav{
+	margin-top: 0;
+}
+
+.nav-bar.hide-on-desktops .nice.tabs{
+	margin-bottom: 0;
+}
+
+#inner-footer{
+}
+
+article.post{
+	margin-bottom: 18px;
+	border-bottom: 1px solid #ccc;
+}
+
+/* post styling */
+
+#main p.meta{
+	font-style: italic;
+	color: #808080;
+}
+
+
+
+div[id*='attachment_']{
+	max-width: 100%;
+	height: 100%;
+}
+
+#credit320{
+	background: url('images/320press_mini.png') no-repeat left top transparent;
+	padding-left: 20px;
+}
+
+#main article img{
+	max-width: 100%;
+}
+
+h1.single-title{
+	line-height: 1.1;
+}
+
+img.alignleft{
+	margin-right: 10px;
+	float: left;
+}
+
+img.alignright{
+	margin-left: 10px;
+	float: right;
+}
+
+img.aligncenter{
+	display: block;
+	margin: 0 auto;
+}
+
+video {
+	max-width: 100%;
+	height: auto;
+}
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.video-wrapper {
+	width: 630px;
+	max-width: 100%;
+	margin-bottom: 18px;
+}
+
+pre {
+    background-color: #F5F5F5;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    display: block;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0 0 18px;
+    padding: 8.5px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+code {
+    color: rgba(0, 0, 0, 0.75);
+    padding: 1px 3px;
+}
+
+code, pre {
+    font-family: Monaco,Andale Mono,Courier New,monospace;
+    font-size: 12px;
+	padding: 5px 15px;
+}
+
+/* page styling */
+
+.page-template-page-homepage-php #main header{
+	margin: 2rem 0;
+	text-align: center;
+}
+
+/* comments */
+
+#comments{
+	line-height: 3.1rem;
+	margin-bottom: 18px;
+}
+
+ol.commentlist,
+ol.commentlist ul.children{
+	list-style-type: none;
+	margin-left: 0;
+}
+
+ol.commentlist div.avatar{
+	float: left;
+	margin-right: 10px;
+}
+
+ol.commentlist time{
+	font-size: .8em;
+	color: #eeeeee;
+}
+
+ol.commentlist div.comment-author{
+	position: relative;
+}
+
+ol.commentlist a.comment-edit-link{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+ol.commentlist span.edit-comment{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.comment h4{
+	margin-bottom: 0;
+}
+
+li.bypostauthor{
+	background-color: #F0F0F0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+a.comment-reply-link{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+#cancel-comment-reply{
+	padding-left: 20px;
+}
+
+#comment-nav ul{
+	list-style-type: none;
+	margin: 0;
+}
+
+#comment-form-elements{
+	list-style-type: none;
+	margin: 0;
+}
+
+/* specific post-type styles */
+
+/* image attachment */
+
+.attachment #main .post_content img{
+	max-width: 100%;
+}
+
+li.next{
+	text-align: right;
+}
+
+
+
+#sidebar1 .metadata,
+#sidebar1 .caption{
+	padding-bottom: 20px;
+}
+
+
+/* widget styles */
+
+.widget{
+	margin-bottom: 18px;
+}
+
+.widget li{
+	margin-bottom: 2px;
+}
+
+.widget ul.children{
+	margin-bottom: 0;
+}
+
+.widget ul.children li{
+	margin-left: 9px;
+}
+
+#tag-cloud{
+	margin-bottom: 18px;
+}
+
+/* change default form padding for search */
+
+.widget_search form{
+	padding-left: 0;
+}
+
+.widget_search .small.button{
+	padding: 5px 20px 8px;
+}
+
+#search{
+	width: 100%;
+}
+
+#search-input{
+	
+}
+
+#search-button{
+	
+}
+
+@media only screen and (min-width: 768px) {
+	ol.commentlist div.avatar{
+		margin-right: 0;
+	}
+}
+
+
+@media only screen and (min-width: 940px) {
+	/* desktop specific styles */
+	
+	#main{
+		margin-bottom: 0;
+		border-bottom: none;
+	}
+	
+	.page-template-page-homepage-php #main header{
+		margin: 6rem 0;
+	}
+	
+	ol.commentlist div.avatar{
+		margin-right: 0;
+	}
+	
+	#s{
+		width: 210px;
+	}
+	
+}
