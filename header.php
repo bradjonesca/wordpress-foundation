@@ -170,7 +170,7 @@
 				</div>
 				
 				<div class="two columns">
-					<ul class="top-nav nav-bar hide-on-desktops">
+					<ul class="top-nav nav-bar hide-on-desktops hide-on-tablets">
 						<li class="has-flyout"><a href="#">Menu</a>
 							<div class="top-nav flyout small">
 								<ul class="nice vertical tabs">
