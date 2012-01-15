@@ -99,6 +99,7 @@ div[id*='attachment_']{
 #credit320{
 	background: url('images/320press_mini.png') no-repeat left top transparent;
 	padding-left: 20px;
+	display: inline !important;
 }
 
 #main article img{
@@ -177,6 +178,15 @@ code, pre {
 }
 
 /* page styling */
+
+.page-template-page-homepage-php #main {
+	border-bottom: none;
+}
+
+.home-main{
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 18px;
+}
 
 .page-template-page-homepage-php #main header{
 	margin: 2rem 0;
@@ -264,13 +274,10 @@ li.next{
 	text-align: right;
 }
 
-
-
 #sidebar1 .metadata,
 #sidebar1 .caption{
 	padding-bottom: 20px;
 }
-
 
 /* widget styles */
 
@@ -304,31 +311,21 @@ li.next{
 	padding: 5px 20px 8px;
 }
 
-#search{
-	width: 100%;
-}
-
-#search-input{
-	
-}
-
-#search-button{
-	
-}
-
 @media only screen and (min-width: 768px) {
 	ol.commentlist div.avatar{
 		margin-right: 0;
 	}
+	
+	#main{
+		border-bottom: none;
+	}
 }
-
 
 @media only screen and (min-width: 940px) {
 	/* desktop specific styles */
 	
 	#main{
 		margin-bottom: 0;
-		border-bottom: none;
 	}
 	
 	.page-template-page-homepage-php #main header{
@@ -337,6 +334,10 @@ li.next{
 	
 	ol.commentlist div.avatar{
 		margin-right: 0;
+	}
+	
+	#search{
+		width: 100%;
 	}
 	
 	#s{

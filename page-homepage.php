@@ -24,7 +24,7 @@ Template Name: Homepage
 						
 						<section class="row post_content">
 						
-							<div class="eight columns">
+							<div class="home-main eight columns">
 						
 								<?php the_content(); ?>
 								

@@ -165,12 +165,12 @@
 		<header role="banner" id="top-header" class="container">
 			<div class="row">
 				<div class="ten columns siteinfo">
-					<h1><a class="brand" id="logo" href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
+					<h1><a class="brand" id="logo" href="<?php echo get_bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
 					<h4 class="subhead"><?php echo get_bloginfo ( 'description' ); ?></h4>
 				</div>
 				
 				<div class="two columns">
-					<ul class="top-nav nav-bar hide-on-desktops hide-on-tablets">
+					<ul class="top-nav nav-bar show-on-phones">
 						<li class="has-flyout"><a href="#">Menu</a>
 							<div class="top-nav flyout small">
 								<ul class="nice vertical tabs">

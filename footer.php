@@ -7,9 +7,9 @@
 				</div>
 				
 				<div class="row">
-					<p class="twelve columns">&copy; <?php bloginfo('name'); ?> <?php _e("is brought to you by", "bonestheme"); ?> <a href="http://320press.com/wp-foundation">WP-Foundation</a>, <a href="http://wordpress.org/" title="WordPress">WordPress</a>, <a href="http://www.themble.com/bones" title="Bones" class="footer_bones_link">Bones</a> <span class="amp">&</span> <a href="http://foundation.zurb.com/" title="Zurb Foundation">Zurb Foundation</a>.</p>
+					<p class="ten columns">&copy; <?php bloginfo('name'); ?> <?php _e("is brought to you by", "bonestheme"); ?> <a href="http://320press.com/wp-foundation">WP-Foundation</a>, <a href="http://wordpress.org/" title="WordPress">WordPress</a>, <a href="http://www.themble.com/bones" title="Bones" class="footer_bones_link">Bones</a> <span class="amp">&</span> <a href="http://foundation.zurb.com/" title="Zurb Foundation">Zurb Foundation</a>.</p>
 					
-					<!--<p class="attribution two columns"><a href="http://320press.com" id="credit320" class="hide-on-phones" title="By the dudes of 320press">320press</a></p>-->
+					<p class="attribution two columns"><a href="http://320press.com" id="credit320" class="hide-on-phones" title="By the dudes of 320press">320press</a></p>
 				</div>
 					
 			</footer> <!-- end footer -->
